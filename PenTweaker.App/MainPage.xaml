@@ -8,7 +8,7 @@
     mc:Ignorable="d" Height="400" Width="400">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:Name="pressureReadout" Text="Placeholder" VerticalAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Center"/>
+        <TextBox x:Name="pressureReadout" Text="{Binding Pressure}" VerticalAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Center"/>
 
     </Grid>
 </Page>
